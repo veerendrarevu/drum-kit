@@ -18,7 +18,7 @@ function doClick() {
 }
 
 
-document.addEventListener("keypress", function(event){
+$(document).keypress(function(event){
 
     
 
@@ -69,7 +69,6 @@ function makeSound(key){
             break;
     
         default:
-            console.log(buttonName)
             break;
     }
     
